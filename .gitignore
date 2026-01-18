@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch
+*.pth
+
+# Logs
+*.log
+runs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Dataset (large files - keep structure but not images for repo size)
+# Uncomment below if you don't want to track dataset
+# dataset/
+
+# Output directory (model weights are large)
+# Uncomment if you don't want to track trained models
+# output/*.pt
+
+# PowerPoint files
+*.pptx
+*.ppt
